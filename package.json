@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "rimraf .next out && next build && gh-pages -d out --dotfiles --nojekyll"
+    "deploy": "rimraf .next out && next build && gh-pages -d out --dotfiles --nojekyll -b gh-pages"
   },
   "dependencies": {
     "next": "^14.2.26",
